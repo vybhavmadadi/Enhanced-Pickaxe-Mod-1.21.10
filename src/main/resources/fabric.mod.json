@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "epamod",
+	"version": "${version}",
+	"name": "Enhanced Pickaxe Mod",
+	"description": "This mod will give you a new pickaxe which has auto-smelting and random drops!",
+	"authors": [
+		"RedVibe!"
+	],
+	"contact": {
+		"homepage": "https://github.com/vybhavmadadi",
+		"sources": "https://github.com/vybhavmadadi/Enhanced-Pickaxe-Mod-1.21.10"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/epamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.redvibe.epamod.EnhancedPickaxeMod"
+		],
+		"fabric-datagen": [
+			"com.redvibe.epamod.EnhancedPickaxeModDataGenerator"
+		],
+        "client": [
+            "com.redvibe.epamod.EnhancedPickaxeModClient"
+        ]
+	},
+	"mixins": [
+		"epamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
