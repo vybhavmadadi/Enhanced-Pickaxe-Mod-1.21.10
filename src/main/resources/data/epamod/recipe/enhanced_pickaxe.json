@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "DLD",
+    "SSS"
+  ],
+  "key": {
+    "I": "minecraft:iron_block",
+    "D": "minecraft:diamond_block",
+    "L": "minecraft:lava_bucket",
+    "S": "minecraft:stick"
+      },
+  "result": {
+    "id": "epamod:enhanced_pickaxe",
+    "count": 1
+  }
+}

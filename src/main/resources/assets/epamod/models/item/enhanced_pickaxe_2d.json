@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "epamod:item/enhanced_pickaxe_2d"
+  }
+}
